@@ -35,6 +35,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Code Loriana</h1>
+        <p>You will get a front end engineering job one way or another. IF the Console DSE team says no, that's just one no closer to a yes.</p>
         <img src={logo} className="App-logo" alt="logo" />
       <div>
         <input type="button" value="NEW" onClick={() => { onCreate(); getTodos(setTodos)} } />
