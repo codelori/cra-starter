@@ -35,6 +35,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h2>Prod Environment</h2>
         <img src={logo} className="App-logo" alt="logo" />
       <div>
         <input type="button" value="NEW - SKIP BACKEND" onClick={() => { onCreate(); getTodos(setTodos)} } />
